@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux'
 import getApiImages from './store/services/get-api-images';
+import List from './components/List';
 
 function App() {
   const dispatch = useDispatch()
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div>
-
+      <List/>
     </div>
   );
 }
