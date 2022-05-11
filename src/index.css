@@ -4,3 +4,15 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+body {
+  background: url('https://i.pinimg.com/originals/04/8f/98/048f98b40690b44714aedf326a9042df.jpg');
+}
+
+.main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}

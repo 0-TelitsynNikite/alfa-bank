@@ -1,0 +1,8 @@
+.heart {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.heart.active{
+    color: red;
+}
