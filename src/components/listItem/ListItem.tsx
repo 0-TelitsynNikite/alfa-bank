@@ -13,7 +13,7 @@ type TProps = {
 }
 
 
-export default function ListItem({ image, name, id, liked }: TProps) {
+export default function ListItem({ image, name, id, liked }: TProps): JSX.Element {
     const dispatch = useDispatch()
     const [color, setColor] = useState('lightskyblue')
 
@@ -37,4 +37,3 @@ export default function ListItem({ image, name, id, liked }: TProps) {
         </li>
     )
 }
-

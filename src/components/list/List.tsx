@@ -4,7 +4,7 @@ import ListItem from '../listItem/ListItem.tsx'
 
 
 
-export default function List() {
+export default function List(): JSX.Element {
     const selector = useSelector(state => state)
     
     return (

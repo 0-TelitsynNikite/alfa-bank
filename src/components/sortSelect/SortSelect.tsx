@@ -4,7 +4,7 @@ import { OPTIONS, LIKED, ALL } from '../../consts/options-consts.ts'
 import { GET_LIKED_IMAGES, CHANGE_OPTION_LIKE, CHANGE_OPTION_ALL } from '../../store/types.ts'
 import { useDispatch } from 'react-redux'
 
-export default function SortSelect(props) {
+export default function SortSelect(props): JSX.Element {
     const dispatch = useDispatch()
 
     const changeSortOptions = (event, callback) => {
