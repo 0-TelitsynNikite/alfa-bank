@@ -18,11 +18,3 @@ export default function getApiImages() {
 
     }
 }
-
-// item.liked = false
-
-// if (!changeApiImages(item.image)) {
-//     item.image = 'https://blog.vverh.digital/wp-content/uploads/2020/06/oblojka-404.png'
-// }
-
-// return item
